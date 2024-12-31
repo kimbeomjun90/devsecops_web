@@ -33,4 +33,4 @@ jobs:
         run: |
           curl -X POST -H "Content-Type: application/json" `
           -d '{"status":"success"}' `
-          https://099f-58-149-46-252.ngrok-free.app/github-webhook/
+          https://09b8-121-182-120-10.ngrok-free.app/github-webhook/
