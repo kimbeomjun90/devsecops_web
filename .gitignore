@@ -1,0 +1,7 @@
+# .gitignore 파일에 다음 내용 추가
+.idea/
+.vscode/
+.env
+*.log
+.DS_Store
+Thumbs.db
