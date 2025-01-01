@@ -31,6 +31,6 @@ jobs:
       - name: Trigger Jenkins Webhook (on Success)
         if: ${{ success() }}
         run: |
-          curl -X POST -H "Content-Type: application/json" `
-          -d '{"status":"success"}' `
-          https://09b8-121-182-120-10.ngrok-free.app/github-webhook/
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"status":"success"}' \
+          https://099f-58-149-46-252.ngrok-free.app/github-webhook/
