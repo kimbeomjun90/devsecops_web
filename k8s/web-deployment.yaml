@@ -17,8 +17,8 @@ spec:
         node-type: webserver
       containers:
       - name: wargame-web
-        image: wargame-web:latest
-        imagePullPolicy: Never
+        image: redrayn/wargame:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         env:
